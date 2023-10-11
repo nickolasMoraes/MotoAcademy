@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="" method="">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="usuario_nome" />
+        </div>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="usuario_email" />
+        </div>
+        <div>
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="usuario_telefone" />
+        </div>
+        <div>
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" name="usuario_idade" />
+        </div>
+        <div>
+            <label for="genero">Genero:</label>
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="masculino" name="usuario_masculino" />
+            <label for="feminino">feminino</label>
+            <input type="radio" id="feminino" name="usuario_feminino" />
+            <label for="outro">Outro</label>
+            <input type="radio" id="outro" name="usuario_outro" />
+        </div>
+        <div>
+            <label for="data">Data:</label>
+            <input type="date" id="data" name="usuario_data">
+        </div>
+        <div>
+            <label for="arquivo">Arquivo:</label>
+            <input type="file" id="arquivo" name="usuario_arquivo" />
+        </div>
+        <div>
+            <label for="msg">Mensagem:</label>
+            <textarea name="usuario_msg" id="msg" cols="30" rows="10"></textarea>
+        </div>
+        <div class="button">
+            <button type="submit">Enviar sua mensagem</button>
+        </div>
+        <div class="button">
+            <button type="reset">Apagar formulario</button>
+        </div>
+    </form>
+    <div>
+        <a href="index.html"><img src="./images/voltar.png" width="80px" height="30px"></a>
+    </div>
+</body>
+</html>
