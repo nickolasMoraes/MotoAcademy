@@ -23,3 +23,17 @@ body {
     left: 50px;
     border: 1px solid black;
 }
+
+.paragrafo{
+    width: 600px;
+    margin: 20px;
+    color: rgb(224, 12, 153);
+    font-family: 'Tilt Neon', 'PT Sans';
+    font-size: 170%;
+    font-weight: 600;
+    text-transform: none;
+    text-decoration: line-through underline;
+    box-shadow: 10px 5px 5px black;
+    text-shadow: 10px 8px 8px plum;
+    text-align: justify;
+}
