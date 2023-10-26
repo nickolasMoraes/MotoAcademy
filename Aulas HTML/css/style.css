@@ -25,15 +25,20 @@ body {
 }
 
 .paragrafo{
+    position: absolute;
     width: 600px;
     margin: 20px;
-    color: rgb(224, 12, 153);
-    font-family: 'Tilt Neon', 'PT Sans';
+    padding: 10px;
+    font-family: Arial, 'Alumni Sans Collegiate One', 'PT Sans';
+    color: black;
     font-size: 170%;
-    font-weight: 600;
-    text-transform: none;
-    text-decoration: line-through underline;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: underline;
     box-shadow: 10px 5px 5px black;
-    text-shadow: 10px 8px 8px plum;
+    text-shadow: 6px 4px 2px rgb(71, 69, 69), 2px 2px 1px cadetblue;
     text-align: justify;
+    text-decoration: aquamarine;
+    
 }
